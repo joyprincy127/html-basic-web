@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>forms</title>
+</head>
+<body>
+    <h1>HTML FORMS</h1>
+    <form action="">
+        <!-- text:typing bar-->
+        <label for="name">Enter ur name :</label>
+        <input type="text" id="name" placeholder="name" required>
+        <br>
+        <br>
+        <!-- email:creates a keypad for typing email,in mobile-->
+        <label for="email">Enter ur email</label>
+        <input type="email" id="email" placeholder="mail@gmail.com" required>
+        <br><br>
+        <!-- password:auto hides the words we type-->
+        <label for="password">Enter ur password</label>
+        <input type="password" id="password">
+        <br><br>
+        <!-- dob-->
+         <label for="dob">Date of birth</label>
+        <input type="date" id="dob"> 
+        <br><br>
+        <!--gender: done with using radio button-->
+        <p>Select ur gender</p>
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="other">
+        <label for="other">Others</label>
+        <br><br>
+        <!-- select -->
+        <label for="">Security questions</label>
+        <select name="" id="qns">
+            <option value="q1">what is ur place of birth?</option>
+            <option value="q2">what is ur pet name?</option>
+        </select>
+        <br><br>
+        <label for="ans">Security Answer</label>
+        <input type="text" id="Security">
+        <br><br>
+        <!-- text area -->
+         <label for="bio">Enter ur bio : </label>
+         <br>
+         <textarea name="" id="bio" placeholder="Enter ur bio"></textarea>
+        <br><br>
+        <!-- File-->
+        <label for="file">Upload ur photo: </label>
+        <input type="file" id="file" accept="image/*">
+        <br><br>  
+        <!-- checkbox -->
+        <input type="checkbox" id="check" required>
+        <label for="check">I agree to terms and conditions</label>
+        <br><br>
+        <!-- submit button -->  
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
