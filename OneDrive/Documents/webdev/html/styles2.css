@@ -82,3 +82,74 @@ nav ul{
     margin: 0 auto;
   
 }
+/* main section */
+article{
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+article h2,h3{
+    color: #17406c;
+}
+
+article p{
+    /*line-height: the disance b/w the first line and second line in a para(the height of line1 and line2)
+      1.4em: em means relative measurement where the  present value will be the multiple of given value */
+    line-height: 1.4em;
+    letter-spacing: 1px;
+}
+
+article ul li{
+    display: inline-block;
+    width: 45%;
+    padding: 10px;
+}
+article ul img{
+    width:90% ;
+    max-height: 55%;
+}
+/* states section */
+.states{
+    background-color: #17406c;
+}
+.state-list{
+    max-width: 900px;
+    margin: 0 auto;
+    column-count: 4;
+    column-gap: 60px;
+    padding: 40px;
+    list-style: none;
+}
+
+section.states ul{
+    list-style: none;
+    width: 75%;
+}
+
+section.states ul li{
+    line-height: 20px;
+}
+section.states ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+/* footer */
+footer {
+    background-color: #17406c;
+    margin: 0 auto;
+    padding: 12px;
+
+}
+footer p{
+    color: white;
+    text-align: center;
+    font-size: 0.9em;
+}
+/* horizontal line */
+hr{
+    width: 60%;
+    margin: 0 auto;
+
+}
