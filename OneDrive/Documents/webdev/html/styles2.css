@@ -175,3 +175,69 @@ hr{
     text-decoration: underline;
     font-weight: bold;
  }
+    /* sudo class : it is used to give a visual feed back when we hover on the element, it is ':' */
+    /* sudo element: it is '::'  */
+article p::first-letter{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #17406c;
+}
+ article p::selection{
+    background-color: #17406c;
+    color: white;
+}
+ /*media queries : used to handle the layout in all the devices  */
+ /* break points  */
+ /* xs /small - 576px
+    medium - 768px
+    large - 992px
+    xl - 1200px
+    2xl - 1400px
+ */
+@media screen and (max-width: 768px){
+    header {
+        position : static;
+        background-color:transparent ;
+    }
+    .banner h2{
+        position: static;
+        border-radius: 0;
+        margin: 0;
+        font-size: 0.95em;
+    }
+
+    nav li{
+        display: block;
+        line-height: 3px;
+    }
+    nav {
+        top: 0px;
+
+    }
+    article ul li{
+        display : block;
+        width: 100%;
+    }
+    .state-list{
+        column-count: 2;
+        column-gap: 40px;
+    }
+
+    
+}
+@media screen and (max-width: 992px){
+    header {
+        background-color: transparent;
+        position: static;
+
+    }
+nav {
+    top: 0px;
+}
+.banner h2 {
+    font-size: 1.1em;
+}
+}
+ 
+
+  
